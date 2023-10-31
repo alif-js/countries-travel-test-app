@@ -1,0 +1,15 @@
+#all-countries{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+.country{
+    background-color: antiquewhite;
+    border: 2px solid teal;
+    border-radius: 5px;
+    padding: 10%;
+}
+.country:hover{
+    background-color: bisque;
+}
